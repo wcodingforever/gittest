@@ -3,3 +3,5 @@ function parseF(s) {
   if (isNaN(newFloat)) return null;
   else return newFloat;
 }
+
+console.log(parseF("1"));
