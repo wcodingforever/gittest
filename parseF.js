@@ -9,3 +9,6 @@ console.log(parseF("one"));
 console.log(parseF("123.454"));
 console.log(parseF(false));     // This was added by me, on the local repository.
 console.log(parseF(true));
+
+// Adding test for nulls
+console.log(parseF(null));
