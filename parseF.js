@@ -12,3 +12,6 @@ console.log(parseF(true));
 
 // Adding test for nulls
 console.log(parseF(null));
+console.log(parseF(undefined)); /* This passes an undefined to the function. */
+
+console.log(parseF(0));
