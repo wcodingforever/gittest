@@ -9,3 +9,5 @@ console.log(parseF("one"));
 console.log(parseF("123.454"));
 console.log(parseF(false));     // This was added by me, on the local repository.
 console.log(parseF(true));
+
+console.log(parseF(undefined)); /* This passes an undefined to the function. */
